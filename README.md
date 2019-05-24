@@ -1,6 +1,6 @@
 # Sunflower Collection of Kaldi-based aidatatang_200zh Training
 
-[Translation](https://github.com/datatang-ailab/aidatatang_200zh/edit/master/README.zh.md)
+[Translation](https://github.com/datatang-ailab/aidatatang_200zh/blob/master/README.zh.md)
 
 
 ## Description
@@ -388,4 +388,5 @@ Although the development of speech technology has certain history, and the deep 
 Datatang (Beijing) Technology Co., Ltd is a professional AI data service provider and is dedicated to providing data collection, processing and data product services for global artificial intelligence enterprises, covering data types such as speech, image and text, including biometrics, speech recognition, autonomous driving, smart home, smart manufacturing, new retail, OCR scene, smart medical treatment, smart transportation, smart security, mobile phone entertainment, etc.
 
 [For more open source data sets](https://www.datatang.com/webfront/opensource.html)
+
 [For more business data sets](https://www.datatang.com/webfront/datatang_dataset.html)
