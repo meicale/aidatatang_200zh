@@ -1,5 +1,8 @@
 # Sunflower Collection of Kaldi-based aidatatang_200zh Training
 
+[Translation](https://github.com/datatang-ailab/aidatatang_200zh/edit/master/README.zh.md)
+
+
 ## Description
 
 - Test environment: Ubuntu 16.04
