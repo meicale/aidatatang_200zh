@@ -33,7 +33,7 @@ local/aidatatang_prepare_dict.sh || exit 1;
 utils/prepare_lang.sh --position-dependent-phones false data/local/dict "<UNK>" data/local/lang data/lang || exit 1;
 
 # LM training
-local/aidatatang_train_lms2.sh || exit 1;
+local/aidatatang_train_lms.sh || exit 1;
 
 # G compilation, check LG composition
 local/aidatatang_format_data.sh
