@@ -25,7 +25,8 @@ if($#ARGV != 1) {
   exit;
 }
 
-use encoding utf8;
+#use encoding utf8;
+use utf8;
 my %prons;
 open(DICT, $ARGV[0]) || die("Can't open dict ".$ARGV[0]."\n");
 foreach (<DICT>) {
