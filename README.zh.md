@@ -1,4 +1,4 @@
-# 基于Kaldi的aidatatang_200zh的训练之葵花宝典
+﻿# 基于Kaldi的aidatatang_200zh的训练之葵花宝典
 
 ## 说明
 
@@ -24,7 +24,7 @@ Kaldi的代码及版本控制请访问[这里]( https://github.com/kaldi-asr/kal
 正式安装之前需要下载相关依赖包：
 
 ```shell
-sudo apt-get install autoconf automaker gcc g++ libtool subversion gawk
+sudo apt-get install autoconf automake gcc g++ libtool subversion gawk
 sudo apt-get install libatlas-dev libatlas-base-dev gfortran zlib1g-dev
 ```
 
@@ -57,9 +57,10 @@ make -j 4
 ```
 
 注意，目前的Kaldi版本中已经不再默认安装IRSTLM，如有需求，可自行安装，如下所示：
-
+docker 中可能没有mkl库，可能需要自行安装。
 ```shell
 ./extras/install_irstlm.sh 
+./extras/install_mkl.sh 
 ```
 
 其次，进入src目录，按照src/INSTALL的说明在命令行分别输入：

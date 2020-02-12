@@ -1,4 +1,4 @@
-# Sunflower Collection of Kaldi-based aidatatang_200zh Training
+﻿# Sunflower Collection of Kaldi-based aidatatang_200zh Training
 
 [Translation](https://github.com/datatang-ailab/aidatatang_200zh/blob/master/README.zh.md)
 
@@ -30,7 +30,7 @@ Please visit [here](<https://github.com/kaldi-asr/kaldi>) for Kaldi code and ver
 Download relevant dependent packages before formal installation:
 
 ```shell
-sudo apt-get install autoconf automaker gcc g++ libtool subversion gawk
+sudo apt-get install autoconf automake gcc g++ libtool subversion gawk
 sudo apt-get install libatlas-dev libatlas-base-dev gfortran zlib1g-dev
 ```
 
@@ -62,10 +62,11 @@ Suppose the output is 4, the compilation parameter can be set to 4 to speed up t
 make -j 4
 ```
 
-Note that IRSTLM is no longer installed by default in the current Kaldi version. If required, you can install IRSTLM by yourself, as shown below:
-
+Note that IRSTLMis no longer installed by default in the current Kaldi version. If required, you can install IRSTLM by yourself, as shown below:
+Note that mkl compute node is not installed on docker， you may need to install it.
 ```shell
 ./extras/install_irstlm.sh 
+./extras/install_mkl.sh 
 ```
 
 Next, enter the SRC directory and enter the following command separately in the command lines as per instructions of src/INSTALL:
